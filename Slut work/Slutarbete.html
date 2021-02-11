@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slut-arbete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-container">
+    <header class="header">
+        <nav class="navbar">
+            <button class="header-button" onclick="scrollToElement('about')">About</h3>
+            <button class="header-button" onclick="scrollToElement('work')">Work Experience</h3>
+            <button class="header-button" onclick="scrollToElement('edu')">Education</h3>
+            <button class="header-button" onclick="scrollToElement('footer')"> Contact Me!</h3>
+        </nav>
+        <h1 class="rubrik">Zebastian Kjellström</h1>
+    </header>
+    <main>
+        <div class="floating-image">
+            <a href="mailto:zebastian.kjellstrom@gmail.com">
+                <h3 class="contact-me">Contact Me!</h3>
+                <img class="round-profile-image" src="./118932283_10157587595957776_8554461297658770988_o.jpeg" alt="zebastian">
+            </a>
+        </div>
+        <article id="about" class="about">
+            <h3>About</h3>
+            <p>Jag heter Zebastian och är i 30års åldern och pluggar just nu frontendutveckling med inriktning på it-säkerhet på jensens yrkeshögskola. Jag är en person som älskar att resa, har nu levt och jobbat i 3 olika länder. Festivaler är något som jag har ett stort intresse för, Roskilde är framförallt en av mina favoriter.</p>
+        </article>
+        <article id="work" class="work">
+            <h3>Work Experience</h3>
+            <p>Jag har jobbat med mycket olika saker under mitt liv, men framförallt så har jag jobbat som bartender/servitör dom senaste 10 åren. Då har jag främst inriktat mig på att jobba med öl och whisky, men jag har även jobbat på cocktailbarer mm i både Sverige och Australien. Utöver det så har jag jobbat med att tillverka och sälja churros på festivaler och marknader, jobbat på fabrik i Norge och rivit konstutställningar i Helsingborg. </p>
+        </article>
+        <article id="edu" class="education">
+            <h3>Education</h3>
+            <p>På gymnasiumet så pluggade jag Naturvetenskap med inriktning på marin biologi och efter det så har jag öven pluggat lite naturvetenskap på göteborgs universitet. Jag har även gått en 6 månader lång bar och serveringsutbildning med ett stort fokus på vin och cocktails.</p>
+        </article>
+        
+    </main>
+    <footer id="footer" class="footer">
+        <p>©Zebastian Kjellström 2021</p>
+    </footer>
+</div>
+<script>
+    function scrollToElement (element) {
+        var element = document.getElementById(element)
+        element.scrollIntoView(element)
+    }
+</script>
+</body>
+</html>
